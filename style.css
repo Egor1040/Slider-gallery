@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 960px;
+    display: flex;
+    column-gap: 20px;
+}
+
+li {
+    overflow: hidden;
+    height: 200px;
+}
+
+.gallery li {
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: filter 0.5s;
+}
+
+.gallery li:hover {
+    filter: grayscale(0);
+}
+
+img {
+    width: 100%;
+}
+
