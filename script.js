@@ -29,8 +29,8 @@ class Gallery {
                     <h2></h2>
                     <p></p>
                     <div class="btn">
-                        <div class="btn__prev"><svg><use xlink:href="/sprite.svg#arrow"></svg></div>
-                        <div class="btn__next"><svg><use xlink:href="/sprite.svg#arrow"></svg></div>
+                        <div class="btn__prev"><svg><use xlink:href="sprite.svg#arrow"></svg></div>
+                        <div class="btn__next"><svg><use xlink:href="sprite.svg#arrow"></svg></div>
                     </div>
                 </div>
             </div>
